@@ -1,0 +1,24 @@
+let and const exercise:
+
+    ES5 Global Constants
+        var PI = 3.14;
+        PI = 42;
+
+    ES2015 Global Constants:
+        const PI = 3.14;
+        PI = 42; -->            this throws an error and cannot be changed. 
+
+
+    QUIZ:
+
+        1. What is the difference between var and let?
+            - Both have a similar use however you cannot redeclare using let only with var.
+            
+        2. What is the differnce between const and var?
+            - You can't redeclare/reassign with const, but you can do that with var.
+
+        3. What is the differene between let and const?
+            - Both can't be redeclared however you can reassign with let.
+
+        4. What is hoisting?
+            - Hoisting is when a declared variable is moved to the top of the scope, global or locally, in a code base.
